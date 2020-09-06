@@ -1,0 +1,234 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: ghostwhite;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    color: #595959;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* #footer
+{
+    position: sticky;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 15px;
+    bottom: 0;
+    right: 0;
+} */
+
+#name
+{
+    font-style: bold;
+    font-size: 30px;
+    color: #7776A1;
+    padding-bottom: 15px;
+}
+
+.header
+{
+    font-style: bold;
+    font-size: 36px;
+    color: #7776A1;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-left: -15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #595959;
+    border-left: 1px solid #595959;
+}
+
+.section
+{
+    font-style: normal;
+    font-size: 24px;
+    color: #595959;
+    padding-bottom: 15px;
+    /* float: left; */
+}
+
+.label
+{
+    font-style: normal;
+    font-size: 18px;
+    color: #7776A1;
+    margin-bottom: -10px;
+}
+
+p
+{
+    font-style: thin;
+    font-size: 16px;
+}
+
+.details
+{
+    font-style: thin;
+    font-size: 16px;
+    color: #595959;
+}
+
+.sub-details
+{
+    font-style: italic;
+    font-size: 14px;
+    color: #595959;
+}
+
+.left
+{
+    flex: 25%;
+    width: 25%;
+    padding: 25px;
+    position: relative;
+    word-wrap: break-word;
+
+}
+
+.fixed
+{
+    position: fixed;
+    flex: 20%;
+    /* width: 24%; */
+    padding: 10px;
+}
+
+#profile
+{
+    width: 215px;
+    height: 250px;
+    background: url('images/emmaliu-trim.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin: auto; */
+}
+
+#profile:hover
+{
+    background: url('images/polite.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#blurb
+{
+    position: relative;
+    padding-right: 15px;
+    border-right: 1px solid #595959;
+    border-top: 1px solid #595959;
+}
+
+.center
+{
+    flex: 60%;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.navbar
+{
+    flex: 10%;
+    /* width: 100px; */
+    margin-right: 15px;
+    margin-left:10px;
+    position: relative;
+    word-wrap: break-word;
+    /* border-left: 1px solid #595959; */
+    /* border-top: 1px solid #595959;} */
+}
+/* 
+something something fancy lines
+
+.inner-navbar
+{
+    position: relative;
+    padding-left: 0px;
+    border-left: 1px solid #595959;
+    border-top: 1px solid #595959;
+} */
+
+ul
+{
+    font-style: thin;
+    font-size: 14px;
+    list-style-position: inside;
+    text-indent: -25px;
+}
+
+#coursework
+{
+    font-size: 16px;
+    color: #7776A1;
+}
+
+#left-coursework
+{
+    width: 50%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+#right-coursework
+{
+    width: 50%;
+    float: right;
+    margin-bottom: 25px;
+}
+
+a 
+{
+    font-style: oblique;
+    color: darkolivegreen;
+}
+
+a:hover
+{
+    font-style: normal;
+    color: darkseagreen;
+}
+
+.icon
+{
+    float: center;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-top: 25px;    
+}
+
+#misc
+{
+    background: url('images/about.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#misc:hover
+{
+    background: url('images/surprise.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+label
+{
+    font-size: 14px;
+}
