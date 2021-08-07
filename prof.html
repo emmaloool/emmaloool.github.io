@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Home | Emma Liu</title>
+    <title>Professional | Emma Liu</title>
     <link rel="shortcut icon" href="images/sneeze-cat.png">
 </head>
 
@@ -31,33 +31,40 @@
     
     <div class="center">
         <div class="header">
-            About Me
+            Resume
         </div>
+    
+        <div class="section">Projects
 
-        <p>
-            Hello!
-            <br><br>
-            I'm a Master's of Computer Science student at Carnegie Mellon University.
-            I completed my Bachelor's at Carnegie Mellon in May 2021, majoring in CS with a concentration/minor in computer graphics. <br><br>
-            
-            My professional interests are in graphics systems software, geometry processing, rendering, animation, and parallel computer architecture.
-            This summer, I was a SWE intern on the Graphics Application Performance team for hardware infrastructure at NVIDIA. 
-            Over the summers of 2019 and 2020, I was a SWE intern at Apple on the GPU Pre-Silicon Usermode (Drivers & Translator) teams.
-            <br><br>
+            <p class="label">Scotty3D/DrawSVG (15-462 Graphics Solo Projects)</p>
+            <ul>
+                <li> Building a 3D graphics software package to support mesh editing on half-edge meshes (triangulation, beveling, and subdivision operations); path tracing (realistic rendering with global illumination effects), and animation </li>
+                <li> Implemented a software rasterizer supporting point, line, and triangle primitives, as well as texture mapping </li>
+            </ul>
 
-            I'll be graduating from the MSCS in May 2022. 
-            In the fall, I'll be looking for Software Engineer positions to start after summer next year (mid-2022)!
-            If you have space for an enthusiastic engineer, especially in the space of graphics systems, please <a href="contact.html">contact me!</a>
-            <br><br>
-        </p>
-
-        <p>+ + +<br><br></p>
-
-        <p>
-            If you're here to look at my credentials, check out <a href="prof.html">Professional</a>!<br><br>
-            If you'd like to learn more about me (the aspects that aren't beep-boop compooter), or my meme credentials, <br>
-            check out <a href="misc.html">Miscellaneous</a>.<br><br>
-        </p>        
+            <p class="label">OwOS/OSnap (15-410 Operating Systems Partner Projects)</p>
+            <ul>
+                <li>Wrote a kernel in a mixture of C and x86-IA32 assembly supporting virtual paging, multiprocessing, high-frequency preemption, and shell console program-running</li>
+                <li>Wrote a user-facing thread library on top of core synchronization primitives and auxiliary routines</li>
+            </ul>
+    
+            <p class="label">
+                <a href="https://emmaliu.info/15418-Final-Project/">Accelerating the WebP Image Encoding Pipeline with CUDA (15418 Partner Project) 🔗</a>
+            </p>
+    
+            <ul>
+                <li>Re-wrote several stages of Google’s WebP image encoding pipeline in CUDA to optimize for parallelism</li>
+                <li>Analyzed optimization performance on the Pittsburgh Supercomputing Cluster Bridges machines </li>
+            </ul>
+    
+            <p class="label">
+                <a href="https://2019.lunargala.org">Lunar Gala 2019 ANOMIE Show and Organization Websites 🔗</a>
+            </p>
+            <ul>
+                <li>Wireframed and styled the theme site for the 2019 show</li>
+            </ul>
+        </div>
+    
     </div>
 
     <div class="navbar">
@@ -84,8 +91,8 @@
             </div>
         </div>
     </div>
-<!-- 
-    <div id="footer">
+
+    <!-- <div id="footer">
         Site Created by Emma Liu © 2020
     </div> -->
 </body>
